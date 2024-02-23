@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Advice generator</title>
+  </head>
+  <body>
+    <main class="main-box">
+      <section class="adv-num">
+        <h3>Advice #<span id="adv-id"></span></h3>
+      </section>
+
+      <article class="adv-text">
+        <p id="adv-quote"></p>
+      </article>
+    </main>
+
+    <section class="randomizer">
+      <button class="rdm-btn" id="random" onclick="fetchApi()">
+        <img src="./assets/icon-dice.svg" />
+      </button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
